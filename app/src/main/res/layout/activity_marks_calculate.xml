@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MarksCalculateActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linear_lay_10th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_background_black"
+                android:padding="10dp"
+                android:text="10 th Total Marks"
+                android:textColor="#D84315"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="** Enter Class 10 All Subject marks out of 100"/>
+
+
+
+            <EditText
+                android:id="@+id/class_10_marks_01"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="Bengali Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_02"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="English Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_03"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="Mathematics Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_04"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="Physical Science Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_05"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="Life Science Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_06"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="History Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/class_10_marks_07"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/chat_with_mentorbutton"
+                android:hint="Geography Marks out of 100"
+                android:inputType="numberDecimal"
+                android:paddingStart="15dp" />
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/lineear_class_11">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background_black"
+                android:padding="10dp"
+                android:text="11 th Theory Marks"
+                android:textColor="#D84315"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:text="** Enter Class 11 Theory Marks &amp; Total MarksBest of 5 "/>
+
+
+             <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/eleven_marks_01"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/eleven_marks_02"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_03"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Get Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_04"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Total Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_05"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Get Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_06"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Total Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_07"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Get Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_08"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Total Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_09"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Get Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+                <EditText
+                    android:id="@+id/eleven_marks_010"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/chat_with_mentorbutton"
+                    android:hint="Total Theory Marks"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="15dp" />
+
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linear_class_12">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_background_black"
+                android:padding="10dp"
+                android:text="12 th Practical / Project Marks"
+                android:textColor="#D84315"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:layout_marginTop="5dp"
+                    android:text="** Enter Class 12 Practical Marks &amp; Total Marks Best of 5 "/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_01"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_02"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_03"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_04"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_05"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_06"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_07"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_08"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_09"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Get Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/twelve_marks_010"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/chat_with_mentorbutton"
+                        android:hint="Total Theory Marks"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="15dp" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/input_background_black"
+                android:backgroundTint="#00838F"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                android:text="Submit &amp; Calculate">
+
+
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

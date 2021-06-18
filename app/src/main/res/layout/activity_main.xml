@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/input_background_black"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textColor="#283593"
+        android:onClick="OkDOne"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="Let's Go Calculate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Design &amp; Created by Amit Maity"/>
+
+
+
+</RelativeLayout>
